@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 userCard.classList.add('user-card');
 
                 const userLink = document.createElement('a');
-                userLink.href = `user.html?id=${user.id}`;
+                userLink.href = `user-detail.html?id=${user.id}`;
                 userLink.style.textDecoration = 'none';
                 userLink.style.color = 'inherit';
 
